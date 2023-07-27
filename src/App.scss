@@ -1,0 +1,17 @@
+@import "./scss/mixins";
+@import "./scss/reset";
+@import "./scss/variables";
+
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+
+body {
+  font-family: "Alegreya Sans SC", sans-serif;
+  background-image: $backgroundImage;
+  height: 100vh;
+  background-attachment: fixed;
+}
+p {
+  font-family: "Pangolin", cursive;
+  color: rgb(44, 67, 21);
+}
